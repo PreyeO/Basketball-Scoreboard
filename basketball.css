@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  background-color: navy;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+h3{
+padding-top: 5em;
+color: white;
+text-align: center;
+}
+p{
+  padding-top: 2em;
+  border:1px solid red;
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 4em;
+  width: 7em;
+  }
+  button{
+background-color: red;
+margin-top: 3em;
+height: 2em;
+width: 3em;
+color:white;
+  }
+  #reset{
+    width:4em;
+    height: 3em;
+    background-color: black;
+    color: white;
+    transform: translateX(10em);
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball scoreboard</title>
+  <link rel="stylesheet" href="./basketball.css">
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h3>HOME</h3>
+      <p id="display">0</p>
+      <button id="one" onclick="buttonOne()">+1</button>
+      <button id="two" onclick="buttonTwo()">+2</button>
+      <button id="three" onclick="buttonThree()">+3</button>
+    </div>
+    <div>
+      <h3>GUEST</h3>
+      <p id="showcase">0</p>
+      <button id="ones" onclick="buttonOnes()">+1</button>
+      <button id="twos" onclick="buttonTwos()">+2</button>
+      <button id="threes" onclick="buttonThrees()">+3</button>
+    </div>
+  </div>
+  <button id="reset" onclick="resetButtons()">reset</button>
+  <script src="./basketball.js"defer></script>
+</body>
+</html>
