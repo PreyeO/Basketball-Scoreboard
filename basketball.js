@@ -13,6 +13,7 @@ function buttonTwo() {
     homeScore.textContent=score;
     }
     function buttonOnes() {
+      score=0
       score+=1;
       guestScore.textContent=score;
       }
@@ -26,6 +27,7 @@ function buttonTwo() {
           }
           function resetButtons() {
             score=0;
-            guestScore.textContent= score;homeScore.textContent=score;
+            guestScore.textContent= score;
+            homeScore.textContent=score;
             }
           
